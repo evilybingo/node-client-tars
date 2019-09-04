@@ -1,4 +1,4 @@
-var TarsClient  = require("../../../../protal.js").client;
+var TarsClient  = require("../../../protal.js").client;
 // var TarsProxy = require("./NodeTarsProxy").tars;
 var TarsProxy = require("./appProxy").PkgBizCard;
 
