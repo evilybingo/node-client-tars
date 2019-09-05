@@ -24,7 +24,6 @@ var error = function (result) {
     console.log("result.response.error.message: ",     result.response.error.message);              //本次调用失败的错误描述
 }
 
-var res="";
 
 //调用接口
 prx.Get("card.detail","{\"data\":{\"aoId\":158}}").then(success, error).done();
